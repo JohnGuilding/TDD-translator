@@ -20,7 +20,7 @@ const translateToEnglish = (input) => {
             output = 'invalid input'
             break;
     }
-    console.log(output);
+    // console.log(output);
     return output;
 }
 
