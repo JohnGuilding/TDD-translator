@@ -1,16 +1,18 @@
-const translateToEnglish = () => {
+const translateToEnglish = (output) => {
     console.log('English translation');
+    const i = input.toLowerCase();
+    console.log(i);
 }
 
-const translateToSpanish = () => {
+const translateToSpanish = (output) => {
     console.log('Spanish translation');
 }
 
-const translateToFrench = () => {
+const translateToFrench = (output) => {
     console.log('French translation');
 }
 
-const translateToLatin = () => {
+const translateToLatin = (output) => {
     console.log('Latin translation');
 }
 
