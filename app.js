@@ -6,11 +6,12 @@ const toFrenchBtn = document.querySelector('.translate-to-french');
 const toLatinBtn = document.querySelector('.translate-to-latin');
 
 const englishTranslator = document.querySelector('.english-translator')
+const englishOutput = document.querySelector('.english-output');
 
 toEnglishBtn.addEventListener('click', (e) => {
     e.preventDefault();
-    const output = englishTranslator.englishTranslation.value
-    translateToEnglish(output);
+    const inputText = englishTranslator.englishTranslation.value
+    englishOutput.innerHTML = translateToEnglish(inputText);
 });
 
 toSpanishBtn.addEventListener('click', (e) => {
